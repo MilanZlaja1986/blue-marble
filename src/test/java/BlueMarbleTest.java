@@ -36,8 +36,10 @@ public class BlueMarbleTest {
 		assertTrue(getFirstLineOfFile(image).contains("PNG"));
 	}
 
+	
+
 	private String getFirstLineOfFile(InputStream inputStream) throws IOException {
-		BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+		BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));		
 		return reader.readLine();
 	}
 	
