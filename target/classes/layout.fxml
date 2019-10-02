@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hellofx.BlueMarbleController">
    <children>
-      <ImageView fx:id="image" fitHeight="375.0" fitWidth="389.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
-      <DatePicker fx:id="datePicker" layoutX="520.0" layoutY="17.0" onAction="#updateDate" prefHeight="49.0" prefWidth="23.0" />
+      <ImageView fx:id="image" fitHeight="378.0" fitWidth="378.0" layoutX="208.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="208.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="11.0" />
+      <DatePicker fx:id="date" layoutX="5.0" layoutY="346.0" onAction="#updateDate" prefHeight="29.0" prefWidth="92.0" promptText="Date" />
+      <CheckBox id="Enhaced" fx:id="Enhaced" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" text="Enhanced" />
+      <CheckBox id="BlackOrWhite" fx:id="BlackOrWhite" layoutX="15.0" layoutY="48.0" mnemonicParsing="false" text="Black/White" />
    </children>
 </AnchorPane>

@@ -76,6 +76,4 @@ public class BlueMarbleController {
 			alert.showAndWait();
 		}
 		
-	}
-
-}
+	}}
